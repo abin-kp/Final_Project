@@ -1,0 +1,28 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL1_MASTER",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"Trigger": "Tr_sample_csv"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-09-16T17:16:00",
+				"endTime": "2025-09-17T17:16:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LS_SqlServerTable",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "ABIN-K-P\\SQLEXPRESS",
+			"database": "vbadeproject",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5YjdlYzYwNS01NWRlLTRlMDItOTQzZC04OWYzYzc5MTI3OGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-integrationRuntime2",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

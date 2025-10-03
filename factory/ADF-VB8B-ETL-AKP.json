@@ -1,0 +1,9 @@
+{
+	"name": "ADF-VB8B-ETL-AKP",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bfd70d9-6d42-448b-8b69-ab3607fbd6ac",
+		"tenantId": "9d43a234-0759-45e0-a8e2-5fdb1c13d0f4"
+	}
+}
